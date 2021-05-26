@@ -1,0 +1,14 @@
+INDEX VERSION 1.131+/Users/barca/Documents/JavaMoocPart1/Part_1/.metadata/.plugins/org.eclipse.jdt.core
+477352473.index
+4055219689.index
+4177532773.index
+1492766893.index
+3549311672.index
+4040306045.index
+3000193840.index
+1913709372.index
+3881480200.index
+1350642260.index
+316121654.index
+4014010535.index
+167568215.index

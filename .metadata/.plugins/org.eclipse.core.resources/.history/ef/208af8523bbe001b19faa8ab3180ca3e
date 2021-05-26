@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class GradesAndPoints {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Give points [0-100]: ");
+		int grade = Integer.valueOf(scan.nextLine());
+		
+		if (grade > 100) {
+			System.out.println("Grade: incredible!");
+		} else if (grade > 90) {
+			System.out.println("Grade: 5");
+		}
+	}
+
+}

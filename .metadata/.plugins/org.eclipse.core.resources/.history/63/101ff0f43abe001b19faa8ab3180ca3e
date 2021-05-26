@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class GradesAndPoints {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Give points [0-100]: ");
+		int grade = Integer.valueOf(scan.nextLine());
+		
+	}
+
+}
