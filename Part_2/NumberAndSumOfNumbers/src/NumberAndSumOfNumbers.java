@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class NumberAndSumOfNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		
+		int count = 0;
+		int sum = 0;
+		
+		while (true) {
+			System.out.println("Give a number: ");
+			int num = Integer.valueOf(scan.nextLine());
+			
+			if (num == 0) {
+				break;
+			}
+			count++;
+			sum += num;
+		}
+		
+		System.out.println("Number of numbers: " + count);
+		System.out.println("Sum of the numbers: " + sum);
+	}
+
+}
