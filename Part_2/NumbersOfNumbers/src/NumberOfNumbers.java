@@ -16,7 +16,7 @@ public class NumberOfNumbers {
 			//task is to read user inputted number
 			int num = Integer.valueOf(scan.nextLine());
 			
-			//task is to exit the loop if the user has inputter zero
+			//task is to exit the loop if the user has inputted zero
 			if (num == 0) {
 				break;
 			}
