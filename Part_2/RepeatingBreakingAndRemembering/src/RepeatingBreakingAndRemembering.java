@@ -17,6 +17,7 @@ public class RepeatingBreakingAndRemembering {
 		
 		while (true) {
 			int num = Integer.valueOf(scan.nextLine());
+			
 			if (num == -1) {
 				break;
 			}
