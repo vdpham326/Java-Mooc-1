@@ -1,14 +1,21 @@
 
 public class Greatest {
-	public static int greatest(int num1, int num2, int num3) {
-		if (num1 > num2 && num1 > num3) {
-			return num1;
-		} else if (num2 > num3) {
-			return num2;
+	public static int greatest(int number1, int number2, int number3) {
+
+		if (number1 > number2) {
+			if (number1 > number3) {
+				return number1;
+			} else {
+				return number3;
+			}
+		}
+		if (number2 > number3) {
+			return number2;
 		} else {
-			return num3;
+			return number3;
 		}
 	}
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int answer = greatest(15, 50, 45);
